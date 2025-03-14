@@ -205,7 +205,7 @@ xmp {
   @media (min-width: 550px) {
     .column,
     .columns {
-      margin-left: 2%;
+      margin-left: 0%;
       margin-bottom: 0; }
       .column:first-child, .column:only-child,
       .columns:first-child,

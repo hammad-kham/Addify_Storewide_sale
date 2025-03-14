@@ -1,8 +1,6 @@
 @extends('shopify-app::layouts.default')
 
 @section('content')
-\
-        <h5>Section Heading</h5>
+<h2>notification settings</h2>
 
 @endsection
-
