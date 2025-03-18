@@ -10,13 +10,16 @@ Route::middleware(['verify.shopify'])->group(function(){
         return view('welcome');
     })->name('home');
 
-    Route::get('general-settings',[SaleController::class,'generalSettings'])->name('generalSettings');
 
-    Route::get('role-based-sale',[SaleController::class,'notificationSettings'])->name('notificationSettings');
+    Route::post('/select-user-tags', [SaleController::class, 'fetchUser']);
 
-    Route::get('notification-settings',[SaleController::class,'saleBasedOnRole'])->name('saleBasedOnRole');
+    
+    Route::post('/select-product', [SaleController::class, 'fetchProduct']);
 
-    Route::get('sale-reports',[SaleController::class,'saleReports'])->name('saleReports');
+    Route::post('/select-collection', [SaleController::class, 'fetchCollection']);
+
+    Route::post('/select-tags', [SaleController::class, 'fetchTags']);
+
 
 
 
