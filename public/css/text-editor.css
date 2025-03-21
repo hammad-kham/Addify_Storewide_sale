@@ -1,0 +1,27 @@
+
+
+
+.trumbowyg-dropdown-formatting button,
+.trumbowyg-dropdown-link button,
+.trumbowyg-button-pane button{
+fill: #637381 !important;
+color: #212b36 !important;
+background: -webkit-linear-gradient(top, #ecf0f1, #ecf0f1) !important;
+background: linear-gradient(180deg, #ecf0f1, #ecf0f1) !important;
+border: 1px solid #ecf0f1 !important;
+box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05) !important;
+}
+.trumbowyg-dropdown-foreColor>button[type="button"],
+.trumbowyg-dropdown-backColor>button[type="button"]{
+min-width: 20px !important;
+min-height: 20px !important;
+}
+.trumbowyg-dropdown-foreColor>button[type="button"]:hover,
+.trumbowyg-dropdown-backColor>button[type="button"]:hover{
+min-width: 20px !important;
+min-height: 20px !important;
+}
+
+.trumbowyg-fullscreen-button svg {
+    color: #222 !important;
+}
